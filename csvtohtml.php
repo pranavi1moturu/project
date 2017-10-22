@@ -1,3 +1,5 @@
+
+<?
 $a = $_REQUEST["file"];
  $row = 0;
  if (($handle = fopen($a, "r")) !== FALSE)
@@ -21,3 +23,4 @@ $a = $_REQUEST["file"];
      echo '</table>';
      fclose($handle);
      }
+     ?>
