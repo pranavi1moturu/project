@@ -11,3 +11,4 @@ if ($imageFileType != 'csv')
  else
  {
 move_uploaded_file($tmp_name, "$target_dir/$name");
+header('Location:index.php?page=htmlTabledisplay&file='.$target_file);
